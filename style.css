@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fondoboss2.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-rda2 {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%; /* Mantener los botones dentro del contenedor */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    box-sizing: border-box; /* Evitar que el padding desborde el contenedor */
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
